@@ -4,7 +4,8 @@ import HomeComp from "../pages/home/HomeComp";
 import AboutLayout from "../layout/AboutLayout";
 import AboutComp from "../pages/about/AboutComp";
 import ContactLayout from "../layout/ContactLayout";
-import Contact from "../pages/contact/Contact";
+// import Contact from "../pages/contact/Contact";
+import ContactComp from "../pages/contact/ContactComp";
 
 export const element  = createBrowserRouter(
     [
@@ -29,7 +30,7 @@ export const element  = createBrowserRouter(
             element: <ContactLayout/>,
             children: [{
                 index: true,
-                element: <Contact/>
+                element: <ContactComp/>
             }]
         },
     ]
